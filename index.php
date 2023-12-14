@@ -23,15 +23,16 @@ if (isset($valider)){
   <form name="fo" method="post" action="">
     <div class="label">Nom</div>
     <div class="input">
-<input type="text" name="nom" value="<?php echo $nom?>"/>
+<input type="text" name="nom"/>
     </div>
     <div class="label">Prénom</div>
     <div class="input">
-      <input type="text" name="prenom"  value="<?php echo $prenom?>"/>
+      <input type="text" name="prenom"/>
     </div>
       <div class="label">Age</div>
       <div class="input">
-        <input type="number" min="12" name="age"  value="<?php echo $age?>"/></div>
+        <input type="number" min="12" name="age"/>
+      </div>
         <div class="input">
           <input type="submit" name="valider" value="M'inscrire">
 </div>
